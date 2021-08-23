@@ -227,7 +227,7 @@ public class Main {
             // Limpiar la consola
             new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
 
-            // Si el valor de la segunda varaible de opción es 2, finaliza el programa
+            // Si el valor de la segunda variable de opción es 2, finaliza el programa
             if (menu.salirDelPrograma()) {
                 System.exit(0);
             }
