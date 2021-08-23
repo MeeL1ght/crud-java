@@ -60,7 +60,7 @@ public class PersonaController {
         }
     }
 
-    // Eliminar objeto (Persona)
+    // Eliminar a la persona
     public void eliminarPersona(Persona[] persona, Integer posicion) {
         for (Integer iterador = posicion;  iterador < Persona.getTotalPersonas(); iterador++) {
             persona[iterador - 1] = persona[iterador];
